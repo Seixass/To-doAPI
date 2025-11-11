@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"]
+}
+
+//aqui eu modiquei, pois, por algum motivo que desconheço, nao tava conseguindo importar/exportar,
+//perdi muito tempo aqui e decidi apenas reconfigurar aqui para facilitar para mim.
